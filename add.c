@@ -3,5 +3,5 @@
 
 int main(int argc, char *argv[]){
 
-  return 0;
+  return ((int)argv[1] + (int)argv[2]);
 }

@@ -4,10 +4,10 @@
 int main(int argc, char *argv[]){
     double result;
     if (is_number(argv[1] && is_number(argv[2]))){
-        result = (int)argv[1] * (int)argv[2];
+        result = (double)argv[1] * (double)argv[2];
     }
     else{
-        result = -1;
+        result = 0;
     }
   return result;
 }
